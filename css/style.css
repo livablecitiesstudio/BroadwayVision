@@ -4,6 +4,7 @@ body, h1, h2, h3, section, header, div, p {
 }
 
 body {
+
   color: #60283f;
   background-color: white;
 }
@@ -15,11 +16,13 @@ section {
 }
 
 header {
+  font-size: 16px;
   text-align: center;
   margin: 2em auto;
 }
 
 header h1{
+  font-size: 1.25em;
   color: #60283f;
   letter-spacing: 2px;
   text-transform: uppercase;
@@ -40,6 +43,10 @@ a {
   text-decoration: none;
 }
 
+footer {
+  text-align: right;
+}
+
 .credit:hover {
   color: #FBC02D;
 }
@@ -52,43 +59,16 @@ a {
   letter-spacing: 0.15em;
 }
 
-@media only screen and (min-width: 768px) {
-  /* header {
-    margin-top: 3em;
-    height: 100px;
-    line-height: 60px;
-  } */
-  header h1 {
-    font-size: 32px;
-    font-size: 1.5em;
-  }
-}
+
 
 .credit{
   color: #546E7A;
   font-size: 0.75em;
   text-align: right;
   margin-top: 5px;
-  margin-right: 4em;
 }
 
-@media only screen and (max-width: 768px) {
-  .cd-image-label{
-    font-size: 0.6em;
-  }
-  .credit{
-    margin-right: 1.75em;
-  }
-}
 
-@media only screen and (max-width: 320px) {
-  .cd-image-label{
-    font-size: 0.5em;
-  }
-  .credit{
-    margin-right: 1.75em;
-  }
-}
 
 
 
@@ -166,4 +146,44 @@ a {
   border-left: 6px solid white;
   right: 45%;
   margin-right: -17px;
+}
+
+@media only screen and (min-width: 768px) {
+  /* header {
+    margin-top: 3em;
+    height: 100px;
+    line-height: 60px;
+  } */
+
+}
+@media only screen and (max-width: 1200px) {
+  .credit{
+    margin-right: 1.75em;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  header{
+    font-size: 12px;
+  }
+  header h1 {
+    /* font-size: 32px; */
+    font-size: 1.5em;
+  }
+  .cd-image-label{
+    font-size: 0.6em;
+  }
+  .credit{
+    margin-right: 1.75em;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+
+  .cd-image-label{
+    font-size: 0.5em;
+  }
+  .credit{
+    margin-right: 1.75em;
+  }
 }
