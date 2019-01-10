@@ -20,11 +20,6 @@ body {
   background-color: #445b7c;
 }
 
-a {
-  color: #dc717d;
-  text-decoration: none;
-}
-
 img {
   max-width: 100%;
 }
@@ -34,12 +29,12 @@ img {
 Main components
 
 -------------------------------- */
-header {
+/* header {
   position: relative;
   height: 160px;
   line-height: 160px;
   text-align: center;
-}
+} */
 header h1 {
   font-size: 22px;
   font-size: 1.375rem;
@@ -49,10 +44,10 @@ header h1 {
   -moz-osx-font-smoothing: grayscale;
 }
 @media only screen and (min-width: 768px) {
-  header {
+  /* header {
     height: 240px;
     line-height: 240px;
-  }
+  } */
   header h1 {
     font-size: 32px;
     font-size: 2rem;
@@ -61,8 +56,8 @@ header h1 {
 
 .cd-image-container {
   position: relative;
-  width: 90%;
-  max-width: 768px;
+  /* width: 90%; */
+  /* max-width: 768px; */
   margin: 0em auto;
 }
 .cd-image-container img {
