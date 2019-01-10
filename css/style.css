@@ -4,16 +4,29 @@ body, h1, h2, h3, section, header, div, p {
 }
 
 body {
-
-  color: #60283f;
+  color: #522137;
   background-color: white;
 }
 
-section {
+main {
   margin: 0 auto;
   margin-bottom: 2em;
   max-width: 1200px;
 }
+
+/* header::after{
+  content: '';
+  background-image: url("https://www.goldentriangleofdenver.com/wp-content/themes/golden/img/background-pattern.svg");
+  background-repeat: repeat;
+  width: 100%;
+  height: 100%;
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  opacity: 0.5;
+} */
 
 header {
   font-size: 16px;
@@ -23,11 +36,11 @@ header {
 
 header h1{
   font-size: 1.25em;
-  color: #60283f;
+  color: #522137;
   letter-spacing: 2px;
   text-transform: uppercase;
-  font-family: Montserrat, arial;
-  font-weight: 500;
+  font-family: 'PT Sans', arial;
+  font-weight: 700;
   margin-bottom: 1em;
   padding-bottom: 0.5em;
   border-bottom: 1px solid orange;
@@ -44,10 +57,31 @@ a {
 }
 
 footer {
-  text-align: right;
+  text-transform: uppercase;
+  font-size: 0.75em;
+  margin-top: 1em;
 }
 
-.credit:hover {
+.gtcd{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  float: left;
+  width: 50%;
+}
+
+.logo{
+  width: 20px;
+  float: left;
+  margin-right: 1em;
+}
+
+.lcs{
+  float: right;
+  width: 50%;
+}
+
+a:hover {
   color: #FBC02D;
 }
 
@@ -62,15 +96,10 @@ footer {
 
 
 .credit{
-  color: #546E7A;
-  font-size: 0.75em;
+
   text-align: right;
   margin-top: 5px;
 }
-
-
-
-
 
 .logo{
   display: inline-block;
@@ -81,12 +110,6 @@ footer {
   /* position: relative; */
   float: left;
   width: 200px;
-}
-
-.lcs {
-  /* position: relative; */
-  float: right;
-  width: 100px;
 }
 
 .title{
